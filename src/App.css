@@ -1,38 +1,70 @@
-.App {
+.Student{
+  display: block;
   text-align: center;
+  width: 700px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.left{
+  width: 60%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+
+}
+.right{
+  width: 40%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: right;
+}
+h2.stuName {
+  padding: 0px;
+  margin: 0px;
+}
+p.uniName{
+  padding: 0px;
+  margin: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.score{
+  font-weight: bold;
+  color: green;
+  font-size: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.ScoreBtn{
+  font-size: 15px;
+  border-radius: 100px;
+  line-height: 16px;
+  position: relative;
+  top:-3px;
+  background-color: red;
   color: white;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  width: 20px;
+  height: 20px;
+  margin-left: 7px;  
 }
-
-.App-link {
-  color: #61dafb;
+.ScoreBtn:hover{
+  background-color: green;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.result{
+  
+  color: white;
+  padding: 1px 4px;
+  margin: 0;
+  line-height: 7px;
+  border-radius: 7px;
+  margin-left: 5px;
+  font-size: 14px;
+}
+.pass{
+  background-color: green;
+}
+.fail{
+  background-color: red;
 }
